@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.top-part{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgb(15, 15, 15,0.4),transparent,transparent,transparent,transparent) , url('img/aeiral1.jpg') ;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5% 3%;
+
+}
+nav h3{
+    color: white;
+    font-size: 23px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 1vw;
+}
+nav ul li::before{
+    content: '';
+    width: 0px;
+    height: 4px;
+    border-radius: 4px;
+    background-color:white;
+    display: block;
+    margin: auto;
+  }
+  nav ul li:hover::before{
+  width: 4px;
+  }
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.top-center{
+    height: 90%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.top-center h3{
+    color: white;
+    font-size: 90px;
+}
+.top-center p{
+    margin-top: -20px;
+    color: rgb(224, 224, 224);
+    font-weight: 300;
+}
+.thik{
+    color: white;
+    font-weight: 600;
+}
+.about,.detail,.contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(252, 249, 244);
+}
+.about img,.contact img{
+    flex: 1.4;
+    object-fit: cover;
+}
+.about-content{
+    flex: 1;
+    margin: 4% 6%;
+    color: rgb(80, 80, 80);
+}
+.about-content h2{
+    font-size: 40px;
+}
+
+.second-p{
+    color: black;
+    font-size: 16px;
+}
+.main-p{
+    color: black;
+    font-size: 28px;
+}
+.about-content .thik{
+    color: rgb(80, 80, 80);
+}
+.detail{
+    background-image: linear-gradient(rgba(2, 0, 7, 0.8),rgb(2, 0, 7,0.8)),url('img/aeiral5.jpg');
+    height: 140vh;
+}
+.detail-content{
+    margin: auto;
+    width: 80vw;
+    height: 120vh;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-content h2,p{
+    color: white;
+    font-size: 20px;
+}
+.detail-content h2{
+    font-size: 25px;
+}
+.small{
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(196, 196, 196);
+}
+
+.contact input{
+    margin: 1% 0;
+    padding: 0.5% 65% 0.5% 1%;
+    outline: none;
+}
+.contact button .thik{
+    color: white;
+}
+.contact button{
+    padding: 2% 35%;
+    background-color: rgb(196, 42, 42);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.main-p{
+    font-size: 25px;
+}
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-image:linear-gradient(rgb(58, 57, 54,0.5),rgb(58, 57, 54,0.5)),url('img/aerial4.jpg');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h2{
+    font-size: 40px;
+}
+footer h2,footer p{
+    color: white;
+}

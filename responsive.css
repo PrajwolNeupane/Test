@@ -1,0 +1,15 @@
+@media (max-width:1100px){
+    .detail-content{
+        width: 96vw;
+    }
+
+}
+@media (max-width:950px){
+    .detail{
+        height: 340vh;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        object-fit: contain;
+    }
+
+}
